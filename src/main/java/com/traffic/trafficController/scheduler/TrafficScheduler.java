@@ -24,13 +24,13 @@ public class TrafficScheduler {
 
         if (step % 2 == 0) {
 
-            trafficService.changeLight("INT-1", Direction.NORTH, LightColor.GREEN);
-            trafficService.changeLight("INT-1", Direction.EAST, LightColor.RED);
+            trafficService.changeLight("TRA-1", Direction.NORTH, LightColor.GREEN);
+            trafficService.changeLight("TRA-1", Direction.EAST, LightColor.RED);
 
         } else {
 
-            trafficService.changeLight("INT-1", Direction.NORTH, LightColor.RED);
-            trafficService.changeLight("INT-1", Direction.EAST, LightColor.GREEN);
+            trafficService.changeLight("TRA-1", Direction.NORTH, LightColor.RED);
+            trafficService.changeLight("TRA-1", Direction.EAST, LightColor.GREEN);
 
         }
 
